@@ -1,0 +1,23 @@
+# Existing System
+Most traditional image viewers or editors allow users to inspect pixel colors using a color picker tool, but:
+
+- They typically do not display named colors alongside RGB values.
+
+- Many tools are not beginner-friendly or open-source, making them less accessible for learners.
+
+- Some online solutions rely on internet connectivity or web APIs, limiting offline use.
+
+- These tools generally lack customization or integration with educational content.
+
+# Proposed System
+The proposed system is a Python-based desktop application that offers:
+
+💡 Real-time detection of RGB values when the user clicks on a pixel in an image.
+
+🧠 Automatic matching of the detected RGB value to the closest known color name using a local dataset.
+
+🖼️ Offline functionality, using OpenCV and NumPy for efficient image processing.
+
+🔄 A lightweight and open-source tool suitable for educational, development, and design use cases.
+
+🧩 Modular structure to allow for future enhancements such as HEX code conversion, color-blind friendly palettes, or image annotation tools.

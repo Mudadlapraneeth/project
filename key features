@@ -1,0 +1,7 @@
+Real-time RGB value extraction on mouse click.
+
+Matches the detected color to a color name using a CSV dataset.
+
+Uses OpenCV for image handling and GUI interaction.
+
+NumPy is used for efficient pixel data processing.
